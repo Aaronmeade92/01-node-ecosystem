@@ -3,11 +3,13 @@ const greet = require('../lib/greet');
 
 describe('Greet module', () => {
 
-  it('should reutrn null if not a string', () => {
+  it('should return null if not a string', () => {
 
-    expect(badGreet()).toBeNull();
+    expect(greet()).toBeNull();
   });
 
-  // it('greet returns a greeting when given a name')
-
+  it('should return a greeting when given a name', () => {
+    
+    expect(greet('Aaron')).toBe('Hi, Aaron');
+  });
 });

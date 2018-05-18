@@ -1,10 +1,10 @@
 'use strict';
-
-function badGreet() {
-  return null;
+function greeting(name) {
+  if(name !== 'string'){
+    return null;
+  }else {
+    return `Hi, ${name}`;
+  }
 }
-function greet() {
-  return `Hi, ${name}`;
-}
 
-module.exports = [badGreet, greet];
+module.exports = greeting;
