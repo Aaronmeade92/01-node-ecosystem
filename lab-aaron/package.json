@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage"
+    "lint": "eslint **/*.js"
   },
   "author": "",
   "license": "ISC",
