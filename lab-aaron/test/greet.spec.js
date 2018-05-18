@@ -1,13 +1,13 @@
-'use strict'
-const greet = require('../lib/greet')
+'use strict';
+const greet = require('../lib/greet');
 
-describe("Greet module", () => {
+describe('Greet module', () => {
 
-    it('should reutrn null if not a string', () => {
+  it('should reutrn null if not a string', () => {
 
-        expect(greet()).toBeNull();
-    })
+    expect(badGreet()).toBeNull();
+  });
 
-    // it('greet returns a greeting when given a name')
+  // it('greet returns a greeting when given a name')
 
-})
+});

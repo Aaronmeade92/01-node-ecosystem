@@ -1,7 +1,10 @@
-'use strict'
-function greet(){
-    return null
-};
-// var badGreet = () => {return null}
+'use strict';
 
-module.exports = greet;
+function badGreet() {
+  return null;
+}
+function greet() {
+  return `Hi, ${name}`;
+}
+
+module.exports = [badGreet, greet];
