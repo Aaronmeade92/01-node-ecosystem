@@ -1,5 +1,7 @@
 'use strict'
+function greet(){
+    return null
+};
+// var badGreet = () => {return null}
 
-var greet =  () => `hello ${name}, nice to meet you`;
-var badGreet = () => {return null}
-module.exports = [greet, badGreet];
+module.exports = greet;
