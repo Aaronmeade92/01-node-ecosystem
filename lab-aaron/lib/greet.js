@@ -1,6 +1,6 @@
 'use strict';
 function greeting(name) {
-  if(name !== 'string'){
+  if(typeof name !== 'string'){
     return null;
   }else {
     return `Hi, ${name}`;
