@@ -1,13 +1,10 @@
 'use strict'
-const greet = require('../lib/greet')
-describe('greet module', {} => {
-    it('should return null if passed non string', () => {
+const greet = require('../../lab-aaron/lib/greet')
 
+describe("Greet module", () => {
 
-        const expected = null;
+    it('sayHi() reutrns null if not a string')
 
-        const actual = greet{};
+    it('sayHi() returns a greeting when given a name')
 
-        expect(actual).toBe(expected); 
-    })
 })
